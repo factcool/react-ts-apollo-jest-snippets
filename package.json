@@ -1,0 +1,54 @@
+{
+  "name": "react-ts-apollo-jest-snippets",
+  "displayName": "React with Typescript, Apollo and Jest Snippets",
+  "description": "Code snippets for React & Apollo",
+  "version": "0.0.1",
+  "publisher": "factcool",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/factcool/react-ts-apollo-jest-snippets.git"
+  },
+  "galleryBanner": {
+    "color": "#282a2c",
+    "theme": "dark"
+  },
+  "keywords": [
+    "js",
+    "jsx",
+    "ts",
+    "tsx",
+    "Apollo",
+    "JavaScript",
+    "Jest",
+    "GraphQL",
+    "React",
+    "Typescript"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascrip",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
