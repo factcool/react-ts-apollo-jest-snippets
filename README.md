@@ -12,23 +12,19 @@ VSCode extension snippets to ease the development with a modern React stack. Thi
 
 ### Imports and Exports
 
-| trigger | snippet                                             |
-| ------- | --------------------------------------------------- |
-| `imp→`  | `import moduleName from "module"`                   |
-| `imd→`  | `import { destructuredModule } from "module"`       |
-| `ime→`  | `import * as alias from "module"`                   |
-| `ima→`  | `import { originalName as aliasName} from "module"` |
-| `imr→`  | `import React from "react"`                         |
-| `exp→`  | `export default Name`                               |
-| `exd→`  | `export { destructuredModule } from "module"`       |
-| `exa→`  | `export { originalName as aliasName} from "module"` |
-| `fre→`  | `arrayName.forEach(element => { }`                  |
-| `fnn→`  | `const functionName = (params) => { }`              |
-| `fna→`  | `(params) => { }`                                   |
-| `dob→`  | `const {propName} = objectToDescruct`               |
-| `dar→`  | `const [propName] = arrayToDescruct`                |
-| `rc→`   | React arrow function component                      |
-| `rtc→`  | React component with Typescript interface           |
-| `rmc→`  | React memo arrow function component                 |
+| trigger | snippet                                       |
+| ------- | --------------------------------------------- |
+| `imp→`  | `import moduleName from "module"`             |
+| `imd→`  | `import { destructuredModule } from "module"` |
+| `imr→`  | `import React from "react"`                   |
+| `exp→`  | `export default Name`                         |
+| `fnn→`  | `const functionName = (params) => { }`        |
+| `fna→`  | `(params) => { }`                             |
+| `dob→`  | `const {propName} = objectToDescruct`         |
+| `dar→`  | `const [propName] = arrayToDescruct`          |
+| `rc→`   | React arrow function component                |
+| `rtc→`  | React component with Typescript interface     |
+| `rmc→`  | React memo arrow function component           |
+| `ctx→`  | Create react context                          |
 
 ...to be continued...
