@@ -7,14 +7,6 @@
     "prefix": "imd",
     "body": "import { $2 } from '${1:module}'$0"
   },
-  "importEverything": {
-    "prefix": "ime",
-    "body": "import * as ${2:alias} from '${1:module}'$0"
-  },
-  "importAs": {
-    "prefix": "ima",
-    "body": "import { ${2:originalName} as ${3:alias} } from '${1:module}'$0"
-  },
   "import React": {
     "prefix": "imr",
     "body": ["import React from 'react'", ""]
@@ -22,19 +14,6 @@
   "exportDefault": {
     "prefix": "exp",
     "body": "export default $1$0"
-  },
-  "exportDestructing": {
-    "prefix": "exd",
-    "body": "export { $2 } from '${1:module}'$0"
-  },
-  "exportAs": {
-    "prefix": "exa",
-    "body": "export { ${2:originalName} as ${3:alias} } from '${1:module}'$0"
-  },
-  "forEach": {
-    "prefix": "fre",
-    "body": ["${1:array}.forEach(${2:currentItem} => {", "  ${0}", "})", ""],
-    "description": "forEach statement"
   },
   "namedFunction": {
     "prefix": "fnn",
@@ -61,7 +40,7 @@
     "body": [
       "import React from 'react'",
       "",
-      "const ${1:${TM_FILENAME_BASE}} = (props: Props) => {",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
       "  return (",
       "    <React.Fragment>",
       "      $0",
@@ -80,6 +59,7 @@
       "import React from 'react'",
       "",
       "interface Props {$2",
+      "  $0",
       "}",
       "",
       "const ${1:${TM_FILENAME_BASE}} = (props: Props) => {",
@@ -256,12 +236,12 @@
     "description": "Apollo react mutation refetch"
   },
   "describeBlock": {
-    "prefix": "testd",
+    "prefix": "tstd",
     "body": ["describe('$1', () => {", "  $0", "})", ""],
     "description": "Testing `describe` block"
   },
   "itBlock": {
-    "prefix": "testit",
+    "prefix": "tsti",
     "body": ["it('should $1', () => {", "  $0", "})", ""],
     "description": "Testing `it` block"
   }
